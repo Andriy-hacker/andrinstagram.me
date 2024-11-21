@@ -1,0 +1,110 @@
+/* Загальні стилі */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.login-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #007bb5;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.divider span {
+    font-size: 14px;
+    color: #999;
+}
+
+.facebook-login {
+    padding: 10px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook-login:hover {
+    background-color: #365899;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+/* Блок з фоновим зображенням */
+.image-container {
+    flex: 1;
+    background-image: url('instagram-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
